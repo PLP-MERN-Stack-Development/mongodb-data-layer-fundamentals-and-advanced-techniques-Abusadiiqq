@@ -1,0 +1,21 @@
+{
+  "name": "week1-assignment",
+  "version": "1.0.0",
+  "description": "MongoDB Week 1 Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node insert_books.js",
+    "crud": "node crud-operations.js",
+    "queries": "node queries-filters.js",
+    "aggregation": "node aggregation-pipeline.js",
+    "indexing": "node indexing-performance.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^8.0.0"
+  }
+}
